@@ -1,0 +1,51 @@
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    width: 115px;
+    height: 40px;
+
+}
+
+input[type=submit] :hover{
+
+    background-color:#1f4947;
+}
+
+.name {
+    width:590px;
+    height: 33px;
+    padding:0px;
+    margin:5px 0px;
+}
+
+#message {
+
+    width: 590px;
+    height: 200px;
+    padding: 0px;
+    margin: 5px 0px;
+
+}
+
+@media screen and (max-width:980px) {
+    .name {
+        width: 240px;
+    }
+
+    #message{
+        width: 240px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .name {
+        width: 100%;
+    }
+
+    #message{
+        width: 100%;
+    }
+
+}
+
