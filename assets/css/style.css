@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
  
 }
 
@@ -161,10 +162,14 @@ h3 {
 
 }
 
+footer,
+.push {
+    height: 20%;
+}
 
 footer {
     background: #666666;
-    padding: 10px 0px;
+    padding: 20px 0px;
     clear: both;
     overflow: auto;
     margin: 40px 0px 0px 0px;
@@ -172,6 +177,7 @@ footer {
     border-style: solid;
     border-top-color: #4aaaa5;
 }
+
 
 /* Media Queries */
 
